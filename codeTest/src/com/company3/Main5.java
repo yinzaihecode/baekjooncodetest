@@ -8,8 +8,7 @@ public class Main5 {
 
         Scanner scan = new Scanner(System.in);
         int N = scan.nextInt();
-        int result = 0;
-        for (int i = 1; i <= N; i++) {
+        for (int i = N; i >= 1; i--) {
             System.out.println(i);
         }
     }
