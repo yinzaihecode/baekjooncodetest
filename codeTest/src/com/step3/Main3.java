@@ -1,4 +1,4 @@
-package com.company3;
+package com.step3;
 
 import java.util.Scanner;
 

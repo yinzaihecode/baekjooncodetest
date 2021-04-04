@@ -1,14 +1,15 @@
-package com.company3;
+package com.step3;
 
 import java.util.Scanner;
 
-public class Main5 {
+public class Main4 {
 
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
         int N = scan.nextInt();
-        for (int i = N; i >= 1; i--) {
+        int result = 0;
+        for (int i = 1; i <= N; i++) {
             System.out.println(i);
         }
     }
