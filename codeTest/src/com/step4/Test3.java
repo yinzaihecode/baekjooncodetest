@@ -10,7 +10,6 @@ public class Test3 {
     while (sc.hasNext()) {
       int x = sc.nextInt();
       int y = sc.nextInt();
-
       System.out.println(x + y);
     }
     sc.close();
