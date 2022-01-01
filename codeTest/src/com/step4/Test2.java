@@ -2,26 +2,25 @@ package com.step4;
 
 import java.util.Scanner;
 
-public class Test1 {
+public class Test2 {
 
-    public static void main(String[] args) {
+  public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
 
-        Scanner scan = new Scanner(System.in);
+    while (sc.hasNext()) {
+      int x = sc.nextInt();
+      int y = sc.nextInt();
 
-
-        while(true){
-            int a = scan.nextInt();
-            int b = scan.nextInt();
-            if(a == 0 && b == 0)
-                break;
-            int result = a+b;
-
-            System.out.println(result);
-
-        }
-
+      System.out.println(x + y);
     }
+    sc.close();
+  }
 }
+// hasNext public boolean (t/f)
+
+
+
+
 
 
 /*
